@@ -82,7 +82,7 @@ Root
 
 ## Instructions on running the code
 
-* Python version: Python 3.6.6 64-bit
+* Python version: Python 3.7.6 64-bit
 ### Required packages
 
 1. numpy
@@ -109,5 +109,5 @@ Please install it using:
 If the above failed or you don't have a C compiler, please go to [this link](https://rogerbinns.github.io/apsw/download.html) to download binaries for your specific machine. I would recommend using conda to install this package on macOS.
 
 ### Run the code
-1. Run the ```main.py``` to generate all the data from raw txt files in ```industry_data``` and ```raw_data```  
-2. Run the ```Plot_Extent_of_overlap.py```, ```Plot_radar_chart.py```, ```Plot_ucsd_ece.py``` etc. to get the graphs.
+1. Run the ```main.py``` to generate all the data from raw csv files in ```./master.csv```   
+2. Run the function in customfunctions to get the graphs.
